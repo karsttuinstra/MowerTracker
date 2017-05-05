@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2b46f21c-c355-4820-ae74-1af3805f3b63</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>track.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="main.py" />
+    <Compile Include="track.py" />
+    <Compile Include="detect.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="getimages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processimages.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recognision.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
